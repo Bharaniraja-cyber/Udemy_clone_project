@@ -93,6 +93,19 @@ p{
     width: 100%;
 }
 
+.course_ad{
+    padding: 20px;
+}
+.coursead_1{
+    display: flex;
+    gap: 30px;
+    border-bottom: solid black 0.1px;
+    padding-bottom: 15px;
+}
+.coursead_1 p{
+    font-size: 20px;
+
+}
 .ad{
     margin: 20px;
     padding: 20px;
@@ -115,7 +128,7 @@ p{
     margin-top: 10px;
 }
 .ad_sec{
-    width: 50%;
+    width: 650px;
 }
 .ad_p1{
     display: flex;
@@ -149,14 +162,25 @@ p{
 .recomment_1{
     padding: 15px;
     border: gray solid 0.5px;
-    width:20%;
+    
     border-radius: 20px;
     
 
 }
 .recomment_1 img{
-    width:100%;
+    width: 300px;
     height: 150px;
+    border-radius: 10px;
+}
+
+.recomment_2{
+    padding: 15px;
+    border: gray solid 0.5px;
+    border-radius: 20px;
+}
+.recomment_2 img{
+    width: 350px;
+    height: 200px;
     border-radius: 10px;
 }
 
