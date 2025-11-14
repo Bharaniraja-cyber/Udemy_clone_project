@@ -172,7 +172,14 @@ p{
     height: 150px;
     border-radius: 10px;
 }
-
+.recommend2{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 20px;
+}
 .recomment_2{
     padding: 15px;
     border: gray solid 0.5px;
