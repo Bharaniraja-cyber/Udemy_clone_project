@@ -17,9 +17,10 @@ body{
     align-items: center;
     background-color: white;
     z-index: 1;
+    
 }
 .navbar_s1{
-    width: 100px;
+    width: 150px;
 }
 .navbar_s2{
     padding: 10px;
@@ -50,6 +51,9 @@ body{
 p{
     color: #2A2B40;
     font-size: 17px;
+}
+.navbar_s4{
+    display: none;
 }
 .mylearning{
    position:relative;
@@ -356,4 +360,78 @@ p{
     display: flex;
     align-items: center;
     gap: 15px;
+}
+
+
+
+@media  screen and (max-width:1200px) {
+    .ad_sec,.ad_img{
+        width: 40%;
+        h1{
+            font-size: 18px;
+        }
+        p{
+        font-size: 15px;
+
+        }
+    }
+    .ad_img img{
+        width: 500px;
+    }
+    .recommend_1{
+        width: 25%;
+    }
+}
+
+
+@media  screen and (max-width:600px) {
+    body{
+        font-size: 18px;
+        h1{
+            font-size: 24px;
+        }
+    }
+    .navbar{
+        .navbar_s3,.nav1,.navbar_s2{
+            display: none;
+        }
+    }
+    .menu_catt{
+        display: none;
+    }
+    .sale_imageoff{
+        height: 140px;
+        p,h2{
+            font-size: 18px;
+
+        }
+    }
+    .sale-image img{
+        height: 230px;
+    }
+    .container{
+        gap: 20px;
+    }
+    #p_logo{
+        display: none;
+    }
+    .navbar_s4{
+        display: block;
+    }
+    .ad_img{
+        display: none;
+    }
+    .coursead_1 p{
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    #dis{
+        display: none;
+    }
+    .recommend{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
 }
